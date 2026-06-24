@@ -31,6 +31,8 @@ Full docs live in [`docs/`](./docs/README.md):
 - [Usage Guide](./docs/USAGE.md) — collecting, verifying, exporting evidence
 - [Integrity & Custody](./docs/INTEGRITY.md) — guarantees and honest limits
 - [Deployment](./docs/DEPLOYMENT.md) — running, configuring, backing up
+- [Transparency Campaign](./docs/TRANSPARENCY_CAMPAIGN.md) — citizen ATIP templates for financial accountability
+- [Evidence Validation](./docs/EVIDENCE_VALIDATION.md) — fact-checking framework for financial claims
 - [Roadmap](./docs/ROADMAP.md) · [Contributing](./docs/CONTRIBUTING.md) · [Security](./docs/SECURITY.md) · [Glossary](./docs/GLOSSARY.md)
 
 ## Architecture
