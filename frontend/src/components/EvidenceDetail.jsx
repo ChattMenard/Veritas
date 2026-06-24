@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { api } from "../api.js";
 import { formatBytes, formatDate, shortHash } from "../lib/format.js";
+import EntitiesPanel from "./EntitiesPanel.jsx";
 
 const ACTION_META = {
   CREATED: { icon: FileText, color: "text-emerald-400" },
@@ -95,7 +96,7 @@ export default function EvidenceDetail({ evidence, onUpdated }) {
         )}
       </div>
 
-      <div className="grid flex-1 grid-cols-1 gap-6 overflow-y-auto p-6 lg:grid-cols-2">
+      <div className="grid flex-1 grid-cols-1 gap-6 overflow-y-auto p-6 lg:grid-cols-3">
         <section>
           <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
             Provenance
@@ -177,6 +178,10 @@ export default function EvidenceDetail({ evidence, onUpdated }) {
               </button>
             </div>
           </form>
+        </section>
+
+        <section>
+          <EntitiesPanel evidenceId={evidence.id} onLinked={() => onUpdated(evidence)} />
         </section>
       </div>
     </div>

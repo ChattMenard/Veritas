@@ -78,6 +78,20 @@ class EntityRead(EntityCreate):
     created_at: datetime
 
 
+class LinkedEvidenceRead(BaseModel):
+    id: int
+    title: str
+    sha256: str
+    role: str | None = None
+
+
+class LinkedEntityRead(BaseModel):
+    id: int
+    name: str
+    type: EntityType
+    role: str | None = None
+
+
 # ------------------------ Relationships ------------------------- #
 class RelationshipCreate(BaseModel):
     source_entity_id: int

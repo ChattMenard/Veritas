@@ -10,12 +10,19 @@ from .. import storage
 from ..config import settings
 from ..database import get_session
 from ..fetcher import FetchError, fetch_url
-from ..models import ChainOfCustodyEvent, CustodyAction, Evidence
+from ..models import (
+    ChainOfCustodyEvent,
+    CustodyAction,
+    Entity,
+    Evidence,
+    EvidenceEntityLink,
+)
 from ..schemas import (
     CustodyNote,
     EvidenceDetail,
     EvidenceMetadata,
     EvidenceRead,
+    LinkedEntityRead,
     UrlCollect,
     VerifyResult,
 )
@@ -163,6 +170,22 @@ def get_evidence(evidence_id: int, session: Session = Depends(get_session)):
     if not evidence:
         raise HTTPException(404, "Evidence not found.")
     return evidence
+
+
+@router.get("/{evidence_id}/entities", response_model=list[LinkedEntityRead])
+def evidence_entities(evidence_id: int, session: Session = Depends(get_session)):
+    if not session.get(Evidence, evidence_id):
+        raise HTTPException(404, "Evidence not found.")
+    stmt = (
+        select(Entity, EvidenceEntityLink.role)
+        .join(EvidenceEntityLink, EvidenceEntityLink.entity_id == Entity.id)
+        .where(EvidenceEntityLink.evidence_id == evidence_id)
+        .order_by(Entity.name)
+    )
+    return [
+        LinkedEntityRead(id=ent.id, name=ent.name, type=ent.type, role=role)
+        for ent, role in session.exec(stmt).all()
+    ]
 
 
 @router.patch("/{evidence_id}", response_model=EvidenceDetail)

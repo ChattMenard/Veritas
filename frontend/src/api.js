@@ -43,4 +43,49 @@ export const api = {
     }).then(handle),
 
   downloadUrl: (id) => `${BASE}/evidence/${id}/download`,
+
+  evidenceEntities: (id) => fetch(`${BASE}/evidence/${id}/entities`).then(handle),
+
+  // Entities
+  listEntities: (q = "") =>
+    fetch(`${BASE}/entities${q ? `?q=${encodeURIComponent(q)}` : ""}`).then(handle),
+  createEntity: (payload) =>
+    fetch(`${BASE}/entities`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }).then(handle),
+  deleteEntity: (id) => fetch(`${BASE}/entities/${id}`, { method: "DELETE" }).then(handle),
+  entityEvidence: (id) => fetch(`${BASE}/entities/${id}/evidence`).then(handle),
+  linkEvidence: (entityId, evidenceId, role) =>
+    fetch(
+      `${BASE}/entities/${entityId}/link/${evidenceId}${
+        role ? `?role=${encodeURIComponent(role)}` : ""
+      }`,
+      { method: "POST" }
+    ).then(handle),
+  unlinkEvidence: (entityId, evidenceId) =>
+    fetch(`${BASE}/entities/${entityId}/link/${evidenceId}`, { method: "DELETE" }).then(handle),
+
+  // Relationships
+  listRelationships: () => fetch(`${BASE}/relationships`).then(handle),
+  createRelationship: (payload) =>
+    fetch(`${BASE}/relationships`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }).then(handle),
+  deleteRelationship: (id) =>
+    fetch(`${BASE}/relationships/${id}`, { method: "DELETE" }).then(handle),
+
+  // Timeline
+  listTimeline: () => fetch(`${BASE}/timeline`).then(handle),
+  createTimelineEvent: (payload) =>
+    fetch(`${BASE}/timeline`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }).then(handle),
+  deleteTimelineEvent: (id) =>
+    fetch(`${BASE}/timeline/${id}`, { method: "DELETE" }).then(handle),
 };
