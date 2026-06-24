@@ -93,6 +93,11 @@ class Evidence(SQLModel, table=True):
         sa_relationship_kwargs={"cascade": "all, delete-orphan", "order_by": "ChainOfCustodyEvent.timestamp"},
     )
     timeline_events: list["TimelineEvent"] = Relationship(back_populates="evidence")
+    relationships: list["Relationship_"] = Relationship(
+        back_populates="linked_evidence",
+        link_model=EvidenceRelationshipLink,
+        sa_relationship_kwargs={"lazy": "selectin"},
+    )
 
 
 class ChainOfCustodyEvent(SQLModel, table=True):
@@ -129,6 +134,12 @@ class Relationship_(SQLModel, table=True):
     amount: float | None = Field(default=None, description="Monetary value, if applicable")
     occurred_at: datetime | None = None
     created_at: datetime = Field(default_factory=utcnow)
+
+    linked_evidence: list["Evidence"] = Relationship(
+        back_populates="relationships",
+        link_model=EvidenceRelationshipLink,
+        sa_relationship_kwargs={"lazy": "selectin"},
+    )
 
 
 # --------------------------------------------------------------------------- #

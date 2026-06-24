@@ -77,6 +77,10 @@ export const api = {
     }).then(handle),
   deleteRelationship: (id) =>
     fetch(`${BASE}/relationships/${id}`, { method: "DELETE" }).then(handle),
+  linkRelationshipEvidence: (relationshipId, evidenceId) =>
+    fetch(`${BASE}/relationships/${relationshipId}/link/${evidenceId}`, { method: "POST" }).then(handle),
+  unlinkRelationshipEvidence: (relationshipId, evidenceId) =>
+    fetch(`${BASE}/relationships/${relationshipId}/link/${evidenceId}`, { method: "DELETE" }).then(handle),
 
   // Timeline
   listTimeline: () => fetch(`${BASE}/timeline`).then(handle),

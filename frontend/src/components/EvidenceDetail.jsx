@@ -16,6 +16,8 @@ import {
 import { api } from "../api.js";
 import { formatBytes, formatDate, shortHash } from "../lib/format.js";
 import EntitiesPanel from "./EntitiesPanel.jsx";
+import RelationshipsPanel from "./RelationshipsPanel.jsx";
+import TimelinePanel from "./TimelinePanel.jsx";
 
 const ACTION_META = {
   CREATED: { icon: FileText, color: "text-emerald-400" },
@@ -32,6 +34,7 @@ export default function EvidenceDetail({ evidence, onUpdated }) {
   const [verifyResult, setVerifyResult] = useState(null);
   const [note, setNote] = useState("");
   const [actor, setActor] = useState("");
+  const [activeTab, setActiveTab] = useState("entities");
 
   async function verify() {
     setVerifying(true);
@@ -181,7 +184,47 @@ export default function EvidenceDetail({ evidence, onUpdated }) {
         </section>
 
         <section>
-          <EntitiesPanel evidenceId={evidence.id} onLinked={() => onUpdated(evidence)} />
+          <div className="mb-3 flex gap-2 border-b border-zinc-800">
+            <button
+              onClick={() => setActiveTab("entities")}
+              className={`px-3 py-1.5 text-sm font-medium transition-colors ${
+                activeTab === "entities"
+                  ? "border-b-2 border-emerald-500 text-emerald-400"
+                  : "text-zinc-500 hover:text-zinc-300"
+              }`}
+            >
+              Entities
+            </button>
+            <button
+              onClick={() => setActiveTab("relationships")}
+              className={`px-3 py-1.5 text-sm font-medium transition-colors ${
+                activeTab === "relationships"
+                  ? "border-b-2 border-emerald-500 text-emerald-400"
+                  : "text-zinc-500 hover:text-zinc-300"
+              }`}
+            >
+              Relationships
+            </button>
+            <button
+              onClick={() => setActiveTab("timeline")}
+              className={`px-3 py-1.5 text-sm font-medium transition-colors ${
+                activeTab === "timeline"
+                  ? "border-b-2 border-emerald-500 text-emerald-400"
+                  : "text-zinc-500 hover:text-zinc-300"
+              }`}
+            >
+              Timeline
+            </button>
+          </div>
+          {activeTab === "entities" && (
+            <EntitiesPanel evidenceId={evidence.id} onLinked={() => onUpdated(evidence)} />
+          )}
+          {activeTab === "relationships" && (
+            <RelationshipsPanel evidenceId={evidence.id} onLinked={() => onUpdated(evidence)} />
+          )}
+          {activeTab === "timeline" && (
+            <TimelinePanel evidenceId={evidence.id} onLinked={() => onUpdated(evidence)} />
+          )}
         </section>
       </div>
     </div>

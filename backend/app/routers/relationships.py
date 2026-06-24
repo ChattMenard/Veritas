@@ -4,8 +4,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session, select
 
 from ..database import get_session
-from ..models import Entity, Relationship_
-from ..schemas import RelationshipCreate, RelationshipRead
+from ..models import Entity, Relationship_, Evidence, EvidenceRelationshipLink, ChainOfCustodyEvent, CustodyAction
+from ..schemas import RelationshipCreate, RelationshipRead, LinkedEvidenceRead
 
 router = APIRouter(prefix="/api/relationships", tags=["relationships"])
 
@@ -40,3 +40,45 @@ def delete_relationship(relationship_id: int, session: Session = Depends(get_ses
         raise HTTPException(404, "Relationship not found.")
     session.delete(rel)
     session.commit()
+
+
+@router.post("/{relationship_id}/link/{evidence_id}", status_code=201)
+def link_evidence(
+    relationship_id: int,
+    evidence_id: int,
+    session: Session = Depends(get_session),
+):
+    rel = session.get(Relationship_, relationship_id)
+    if not rel:
+        raise HTTPException(404, "Relationship not found.")
+    evidence = session.get(Evidence, evidence_id)
+    if not evidence:
+        raise HTTPException(404, "Evidence not found.")
+    link = EvidenceRelationshipLink(relationship_id=relationship_id, evidence_id=evidence_id)
+    session.merge(link)
+    session.commit()
+    return {"relationship_id": relationship_id, "evidence_id": evidence_id}
+
+
+@router.delete("/{relationship_id}/link/{evidence_id}", status_code=204)
+def unlink_evidence(
+    relationship_id: int,
+    evidence_id: int,
+    session: Session = Depends(get_session),
+):
+    rel = session.get(Relationship_, relationship_id)
+    if not rel:
+        raise HTTPException(404, "Relationship not found.")
+    evidence = session.get(Evidence, evidence_id)
+    if not evidence:
+        raise HTTPException(404, "Evidence not found.")
+    link = session.exec(
+        select(EvidenceRelationshipLink).where(
+            EvidenceRelationshipLink.relationship_id == relationship_id,
+            EvidenceRelationshipLink.evidence_id == evidence_id,
+        )
+    ).first()
+    if link:
+        session.delete(link)
+        session.commit()
+

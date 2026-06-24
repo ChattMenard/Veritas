@@ -105,6 +105,7 @@ class RelationshipCreate(BaseModel):
 class RelationshipRead(RelationshipCreate):
     id: int
     created_at: datetime
+    linked_evidence: list[LinkedEvidenceRead] = []
 
 
 # -------------------------- Timeline ---------------------------- #
