@@ -21,9 +21,21 @@ fully implemented.
 - **Phase 3 — Searchable Archive + Timeline (foundation):** API + data model
   for chronological events tied to evidence.
 
+## Documentation
+
+Full docs live in [`docs/`](./docs/README.md):
+
+- [Architecture](./docs/ARCHITECTURE.md) — how the engine and UI fit together
+- [Data Model](./docs/DATA_MODEL.md) — every table and field, and why
+- [API Reference](./docs/API.md) — all endpoints with examples
+- [Usage Guide](./docs/USAGE.md) — collecting, verifying, exporting evidence
+- [Integrity & Custody](./docs/INTEGRITY.md) — guarantees and honest limits
+- [Deployment](./docs/DEPLOYMENT.md) — running, configuring, backing up
+- [Roadmap](./docs/ROADMAP.md) · [Contributing](./docs/CONTRIBUTING.md) · [Security](./docs/SECURITY.md) · [Glossary](./docs/GLOSSARY.md)
+
 ## Architecture
 
-```
+```text
 backend/   FastAPI + SQLModel (SQLite). The engine: hashing, storage, custody.
 frontend/  React + Vite + Tailwind. The Vault UI.
 ```
@@ -47,7 +59,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
-API docs at http://127.0.0.1:8000/docs
+API docs at <http://127.0.0.1:8000/docs>
 
 ### 2. Frontend (port 5173)
 
@@ -57,7 +69,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173. The dev server proxies `/api` to the backend.
+Open <http://localhost:5173>. The dev server proxies `/api` to the backend.
 
 ## How tamper-evidence works
 
