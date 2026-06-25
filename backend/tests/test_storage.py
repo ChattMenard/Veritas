@@ -63,6 +63,7 @@ def test_verify_tampered(tmp_path, monkeypatch):
     _setup_store(tmp_path, monkeypatch)
     data = b"original data"
     sha256, path, _ = store_bytes(data)
+    path.chmod(0o644)
     path.write_bytes(b"tampered!")
     assert verify(sha256) is False
 
