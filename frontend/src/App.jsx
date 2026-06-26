@@ -9,6 +9,7 @@ import {
   Users,
   GitBranch,
   Calendar,
+  BarChart3,
   Loader2,
 } from "lucide-react";
 import { api } from "./api.js";
@@ -18,6 +19,7 @@ import EvidenceDetail from "./components/EvidenceDetail.jsx";
 import EntitiesView from "./components/EntitiesView.jsx";
 import RelationshipsView from "./components/RelationshipsView.jsx";
 import TimelineView from "./components/TimelineView.jsx";
+import AnalysisView from "./components/AnalysisView.jsx";
 
 export default function App() {
   const [items, setItems] = useState([]);
@@ -97,6 +99,7 @@ export default function App() {
         </div>
         <nav className="flex items-center gap-1">
           {navTab("vault", "Vault", Database)}
+          {navTab("analysis", "Analysis", BarChart3)}
           {navTab("entities", "Entities", Users)}
           {navTab("relationships", "Relationships", GitBranch)}
           {navTab("timeline", "Timeline", Calendar)}
@@ -189,6 +192,12 @@ export default function App() {
         {activeView === "entities" && (
           <div className="flex-1 overflow-hidden">
             <EntitiesView />
+          </div>
+        )}
+
+        {activeView === "analysis" && (
+          <div className="flex-1 overflow-hidden">
+            <AnalysisView />
           </div>
         )}
 
