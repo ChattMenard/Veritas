@@ -15,6 +15,34 @@ from .config import settings
 CHUNK = 1024 * 1024  # 1 MiB
 
 
+def _companion_path(sha256: str, suffix: str) -> Path:
+    """Return the path for a companion file (e.g. '.screenshot.png', '.headers.json')."""
+    return settings.storage_dir / sha256[:2] / f"{sha256}{suffix}"
+
+
+def store_companion(sha256: str, suffix: str, data: bytes) -> Path:
+    """Persist a companion file alongside the object for a given SHA-256.
+
+    Companion files are stored read-only and follow the same content-addressed
+    prefix layout as the main object. They are *not* themselves hashed for
+    addressing; the suffix disambiguates them.
+    """
+    dest = _companion_path(sha256, suffix)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if not dest.exists():
+        tmp = dest.with_suffix(f"{suffix}.tmp")
+        tmp.write_bytes(data)
+        tmp.replace(dest)
+        os.chmod(dest, 0o444)
+    return dest
+
+
+def get_companion_path(sha256: str, suffix: str) -> Path | None:
+    """Return the path for a companion file if it exists."""
+    path = _companion_path(sha256, suffix)
+    return path if path.exists() else None
+
+
 def hash_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 

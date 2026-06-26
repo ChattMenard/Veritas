@@ -36,6 +36,7 @@ class FetchedResource:
     filename: str
     fetched_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
     screenshot: bytes | None = None  # PNG screenshot bytes for visual evidence
+    response_headers: dict[str, str] = field(default_factory=dict)  # HTTP response headers captured at fetch time
 
 
 _NAT64_PREFIX = ipaddress.IPv6Network("64:ff9b::/96")
@@ -185,6 +186,7 @@ async def _fetch_with_httpx(url: str) -> FetchedResource:
                 final_url=str(resp.url),
                 status_code=resp.status_code,
                 filename=_filename_from(str(resp.url), content_type, resp.headers),
+                response_headers=dict(resp.headers),
             )
 
     raise FetchError("Too many redirects.")
@@ -252,6 +254,7 @@ async def _fetch_with_playwright(url: str) -> FetchedResource:
             content_type = (resp.headers.get("content-type") if resp else None) or "text/html; charset=utf-8"
             filename = _filename_from(final_url, content_type, resp.headers if resp else {})
             status_code = resp.status if resp else 200
+            response_headers = dict(resp.headers) if resp else {}
 
             return FetchedResource(
                 content=content,
@@ -260,6 +263,7 @@ async def _fetch_with_playwright(url: str) -> FetchedResource:
                 status_code=status_code,
                 filename=filename,
                 screenshot=screenshot,
+                response_headers=response_headers,
             )
         finally:
             await browser.close()

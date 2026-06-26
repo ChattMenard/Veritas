@@ -3,8 +3,9 @@
 Base URL (local dev): `http://127.0.0.1:8000`
 Interactive docs (auto-generated): `http://127.0.0.1:8000/docs`
 
-All responses are JSON unless noted. Datetimes are ISO 8601. There is currently
-**no authentication** (local/trusted use).
+All responses are JSON unless noted. Datetimes are ISO 8601. Write operations
+require JWT authentication via `POST /api/auth/token` (default admin credentials
+`admin` / `admin`; change via `VERITAS_ADMIN_PASSWORD`).
 
 ---
 
@@ -70,8 +71,11 @@ Errors: **422** empty file / bad datetime, **413** over size limit.
 ### `POST /api/evidence/collect-url` — one-click collect
 
 Fetches a public URL **server-side**, then hashes, stores, and files it as
-evidence (logs a `CREATED` custody event capturing HTTP status, content type,
-final URL after redirects, and retrieval time).
+evidence. Logs a `CREATED` custody event capturing HTTP status, content type,
+final URL after redirects, retrieval time, and (for the Playwright fallback
+path) a rendered PNG screenshot. HTTP response headers are also saved as a
+companion file at `<sha256>.headers.json`; screenshots are saved as
+`<sha256>.screenshot.png` alongside the object.
 
 JSON body:
 
@@ -156,6 +160,16 @@ Logs `VERIFIED` or `VERIFY_FAILED`.
 
 Returns the original file (`FileResponse`) and logs an `EXPORTED` event.
 **410** if the stored object is missing.
+
+### `GET /api/evidence/{id}/screenshot`
+
+Returns the PNG screenshot captured at URL collection time (only available if
+the Playwright fallback path was used). **404** if no screenshot exists.
+
+### `GET /api/evidence/{id}/headers`
+
+Returns the HTTP response headers captured at URL collection time as JSON.
+**404** if no captured headers exist.
 
 ### `GET /api/evidence/{id}/timestamp`
 
@@ -364,6 +378,31 @@ Fetch a root URL, discover first-level links matching a regex pattern, and colle
   "collected_by": "operator"
 }
 ```
+
+---
+
+## Authentication (`/api/auth`)
+
+### `POST /api/auth/token`
+
+OAuth2-compatible login endpoint. Returns a JWT access token that must be sent
+as `Authorization: Bearer <token>` on all write operations.
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/auth/token \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "username=admin&password=admin"
+```
+
+```json
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token_type": "bearer"
+}
+```
+
+Change the default admin password via the `VERITAS_ADMIN_PASSWORD` environment
+variable.
 
 ---
 

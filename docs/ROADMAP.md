@@ -21,8 +21,13 @@ this file tracks what is implemented versus planned.
 - ✅ Full Vault UI
 - ✅ OpenTimestamps timestamp anchoring
 - ✅ RFC 3161 timestamp anchoring (TSA)
-- ⬜ Hash-chained custody log
-- 🟡 PostgreSQL backend (env-switchable; not hardened for concurrent writers)
+- ✅ Hash-chained custody log
+- ✅ Authentication + JWT admin tokens
+- ✅ Commercial RFC 3161 TSA support (DigiCert/Sectigo)
+- ✅ Rendered screenshot / HTML snapshot at collection time (Playwright path)
+- ✅ HTTP response header capture at collection time
+- ✅ C2PA manifest generation (unsigned by default; certificate signing optional)
+- 🟡 PostgreSQL backend (env-switchable; RLS policies defined, not applied by default)
 - ⬜ Signed exports
 
 ## Phase 2 — Entity & Relationship Graph 🟡
@@ -51,7 +56,8 @@ this file tracks what is implemented versus planned.
 - ✅ One-click **URL collector** endpoint (fetch + hash + ingest + provenance) with SSRF guard
 - ✅ "From URL" tab in the collect UI
 - ✅ Capture HTTP status, content type, final URL, and retrieval time in custody
-- ⬜ Rendered screenshot / HTML snapshot at collection time
+- ✅ Capture HTTP response headers as a companion file
+- ✅ Rendered screenshot / HTML snapshot at collection time (Playwright path)
 - ✅ Batch collection (`/api/collect/batch`)
 - ✅ Crawl collection (`/api/collect/crawl`)
 
@@ -63,10 +69,12 @@ this file tracks what is implemented versus planned.
 
 - ✅ OpenTimestamps timestamp anchoring
 - ✅ RFC 3161 timestamp anchoring (TSA)
-- ⬜ Append-only **hash chain** linking custody events
-- 🟡 PostgreSQL backend (env-switchable; not hardened for concurrent writers)
+- ✅ Commercial RFC 3161 TSA support (DigiCert/Sectigo)
+- ✅ Append-only **hash chain** linking custody events
+- ✅ Authentication + JWT admin tokens
+- ✅ C2PA manifest generation (unsigned by default; optional certificate signing)
+- 🟡 PostgreSQL backend (env-switchable; RLS policies defined, not applied by default)
 - ⬜ Vault backup/export to a single signed archive
-- ⬜ Authentication + multi-user roles (for shared deployments)
 - ✅ Automated tests for hashing, storage, custody, verify, entities, relationships, timeline, extractor
 - ✅ `docker-compose.yml` + backend/frontend `Dockerfile`s for one-command run
 

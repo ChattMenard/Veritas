@@ -1,5 +1,6 @@
 """Evidence Vault API — ingest, preserve, verify, and audit source material."""
 
+import json
 import logging
 from datetime import datetime
 
@@ -156,6 +157,15 @@ async def collect_from_url(
 
     sha256, _, size = storage.store_bytes(res.content)
 
+    # Persist provenance companions: response headers and screenshot (if any)
+    companion_parts: list[str] = []
+    if res.response_headers:
+        storage.store_companion(sha256, ".headers.json", json.dumps(res.response_headers, sort_keys=True, default=str).encode("utf-8"))
+        companion_parts.append(f"headers:{len(res.response_headers)}")
+    if res.screenshot:
+        storage.store_companion(sha256, ".screenshot.png", res.screenshot)
+        companion_parts.append(f"screenshot:{len(res.screenshot)} bytes")
+
     evidence = Evidence(
         sha256=sha256,
         title=payload.title or res.filename or sha256[:12],
@@ -196,6 +206,7 @@ async def collect_from_url(
             f"(HTTP {res.status_code}, {res.content_type}, {size} bytes). "
             f"Final URL after redirects: {res.final_url}. "
             f"Retrieved {res.fetched_at.isoformat()}."
+            f"{(' Companions: ' + ', '.join(companion_parts) + '.') if companion_parts else ''}"
         ),
         hash_at_event=sha256,
     )
@@ -372,6 +383,30 @@ def download_evidence(evidence_id: int, session: Session = Depends(get_session))
     return FileResponse(
         path, media_type=evidence.content_type, filename=evidence.filename
     )
+
+
+@router.get("/{evidence_id}/screenshot")
+def download_screenshot(evidence_id: int, session: Session = Depends(get_session)):
+    """Download the PNG screenshot captured at URL collection time (if available)."""
+    evidence = session.get(Evidence, evidence_id)
+    if not evidence:
+        raise HTTPException(404, "Evidence not found.")
+    path = storage.get_companion_path(evidence.sha256, ".screenshot.png")
+    if not path:
+        raise HTTPException(404, "No screenshot was captured for this evidence.")
+    return FileResponse(path, media_type="image/png", filename=f"{evidence.sha256}.screenshot.png")
+
+
+@router.get("/{evidence_id}/headers")
+def download_headers(evidence_id: int, session: Session = Depends(get_session)):
+    """Download the HTTP response headers captured at URL collection time (if available)."""
+    evidence = session.get(Evidence, evidence_id)
+    if not evidence:
+        raise HTTPException(404, "Evidence not found.")
+    path = storage.get_companion_path(evidence.sha256, ".headers.json")
+    if not path:
+        raise HTTPException(404, "No captured headers for this evidence.")
+    return FileResponse(path, media_type="application/json", filename=f"{evidence.sha256}.headers.json")
 
 
 # --------------------------- Timestamping --------------------------- #

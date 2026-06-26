@@ -36,12 +36,23 @@ adversarial scrutiny.
   existed no later than that block time. The submission can fail silently if the
   calendars are unreachable; verification reports `pending` until a block confirms.
 - **RFC 3161 anchoring** — evidence hashes can be submitted to an RFC 3161 trusted
-  timestamp authority (FreeTSA by default), producing a detached `.tsr` signature.
-  The TSA-signed token proves the hash existed at the signed time, without waiting
-  for a blockchain confirmation. See `POST /api/evidence/{id}/timestamp/rfc3161`.
+  timestamp authority (FreeTSA by default; DigiCert/Sectigo configurable), producing
+  a detached `.tsr` signature. The TSA-signed token proves the hash existed at the
+  signed time, without waiting for a blockchain confirmation.
+  See `POST /api/evidence/{id}/timestamp/rfc3161`.
+- **Hash-chained custody log** — each custody event stores the hash of the previous
+  event's serialized fields, making undetected rewrites structurally detectable.
+- **JWT authentication** — all write operations require a Bearer token from
+  `POST /api/auth/token` (default `admin`/`admin`, change via `VERITAS_ADMIN_PASSWORD`).
+- **Source capture** — when collecting from URLs, the engine records the final URL,
+  HTTP status, content type, HTTP response headers, and (via Playwright fallback) a
+  rendered PNG screenshot. Headers are stored as `<sha256>.headers.json` and
+  screenshots as `<sha256>.screenshot.png` alongside the object.
+- **C2PA manifest generation** — produces C2PA content-provenance manifests at ingest
+  (unsigned by default; optional certificate signing via `VERITAS_C2PA_CERT_PATH`).
 
-**Remaining hardening:** hash-chained custody log, signed exports, PostgreSQL
-concurrency hardening, and authentication/roles.
+**Remaining hardening:** signed exports, PostgreSQL concurrency hardening with
+append-only audit rules, and multi-user roles.
 
 ## Documentation
 
