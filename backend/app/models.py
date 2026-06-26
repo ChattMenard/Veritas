@@ -12,7 +12,13 @@ so a single source document can substantiate many claims.
 from datetime import datetime, timezone
 from enum import Enum
 
-from sqlmodel import Field, Relationship, SQLModel
+from sqlmodel import Field, Relationship, SQLModel, Text
+
+# Import economic models
+from .models.economic import (
+    EconomicIndicator, BusinessMetrics, PolicyAction,
+    HypocrisyTracker, WealthTransfer
+)
 
 
 def utcnow() -> datetime:
