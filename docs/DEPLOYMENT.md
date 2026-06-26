@@ -119,7 +119,21 @@ volume mounted at `/app/data` for the SQLite database and object store.
 | `VERITAS_STORAGE_DIR` | `/app/data/store` |
 | `VERITAS_CORS_ORIGINS` | `["https://frontend-rho-six-94.vercel.app","http://localhost:5173","http://127.0.0.1:5173"]` |
 
-Deploy the backend from the `backend/` directory:
+Railway is configured in code for both supported deployment paths:
+
+- GitHub/root deploys use `railway.toml` and `Dockerfile.railway`.
+- CLI deploys from `backend/` use `backend/railway.toml` and `backend/Dockerfile`.
+
+Both Dockerfiles bind Uvicorn to Railway's injected `$PORT`, falling back to
+`8000` for local runs.
+
+Deploy the backend from the repo root:
+
+```bash
+railway up --detach
+```
+
+Or deploy from the `backend/` directory:
 
 ```bash
 railway up --detach
@@ -149,7 +163,6 @@ vercel --prod --yes
 
 ```bash
 railway login                    # one-time auth
-cd backend
 railway link                     # select project "veritas", env "production", service "backend"
 railway up --detach              # deploy
 railway logs                     # view deploy logs
@@ -168,13 +181,13 @@ railway variables                # inspect env vars
 
 ```bash
 # Backend health check
-curl -s `https://backend-production-cf1f.up.railway.app/api/health`
+curl -s https://backend-production-cf1f.up.railway.app/api/health
 
 # Backend statistics
-curl -s `https://backend-production-cf1f.up.railway.app/api/stats`
+curl -s https://backend-production-cf1f.up.railway.app/api/stats
 
 # Frontend availability
-curl -s -I `https://proofstacked.com` | grep "HTTP"
+curl -s -I https://proofstacked.com | grep "HTTP"
 
 # Railway logs (last 100 lines)
 railway logs --limit 100
