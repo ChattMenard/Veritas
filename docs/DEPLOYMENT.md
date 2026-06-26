@@ -117,7 +117,7 @@ volume mounted at `/app/data` for the SQLite database and object store.
 | Volume mount | `/app/data` (5 GB) |
 | `VERITAS_DATABASE_URL` | `sqlite:////app/data/veritas.db` |
 | `VERITAS_STORAGE_DIR` | `/app/data/store` |
-| `VERITAS_CORS_ORIGINS` | `["https://frontend-rho-six-94.vercel.app","http://localhost:5173","http://127.0.0.1:5173"]` |
+| `VERITAS_CORS_ORIGINS` | `["https://proofstacked.com","https://frontend-rho-six-94.vercel.app","http://localhost:5173","http://127.0.0.1:5173"]` |
 
 Deploy the backend from the `backend/` directory:
 

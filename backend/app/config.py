@@ -20,6 +20,8 @@ class Settings(BaseSettings):
     cors_origins: list[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://proofstacked.com",
+        "https://frontend-rho-six-94.vercel.app",
     ]
     max_upload_mb: int = 512
     # External timestamp anchoring (OpenTimestamps)
