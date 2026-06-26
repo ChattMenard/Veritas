@@ -114,6 +114,7 @@ volume mounted at `/app/data` for the SQLite database and object store.
 | Environment | `production` |
 | Region | `us-west2` |
 | Public URL | `https://backend-production-cf1f.up.railway.app` |
+| Domain target port | `8000` |
 | Volume mount | `/app/data` (5 GB) |
 | `VERITAS_DATABASE_URL` | `sqlite:////app/data/veritas.db` |
 | `VERITAS_STORAGE_DIR` | `/app/data/store` |
@@ -125,7 +126,8 @@ Railway is configured in code for both supported deployment paths:
 - CLI deploys from `backend/` use `backend/railway.toml` and `backend/Dockerfile`.
 
 Both Dockerfiles bind Uvicorn to Railway's injected `$PORT`, falling back to
-`8000` for local runs.
+`8000` for local runs. The Railway service domain is configured to target port
+`8000`.
 
 Deploy the backend from the repo root:
 
