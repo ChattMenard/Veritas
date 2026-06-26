@@ -89,7 +89,7 @@ export VERITAS_DATABASE_URL="sqlite:////absolute/path/veritas.db"
 
 ## Known architectural limits (today)
 
-- **Single user, no authentication.** Intended for local/trusted use right now.
+- **Single admin, JWT authentication.** All write operations require a Bearer token. Multi-user roles are not yet implemented.
 - **No background workers.** Ingest is synchronous within the request.
 - **SQLite write concurrency.** Fine for one operator; revisit for multi-writer.
 

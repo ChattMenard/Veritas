@@ -80,9 +80,10 @@ vault.
 
 ## Security notes for any shared deployment
 
-- There is **no authentication yet** — do not expose the backend to the open
-  internet as-is. Put it behind a VPN, SSH tunnel, or an authenticating reverse
-  proxy.
+- **JWT authentication is implemented** — all write operations require a Bearer
+  token. Change the default `admin`/`admin` credentials via the
+  `VERITAS_ADMIN_PASSWORD` and `VERITAS_SECRET_KEY` environment variables before
+  any shared or internet-facing deployment. Read endpoints are unauthenticated.
 - Restrict filesystem permissions on `backend/data/`.
 - See [SECURITY.md](./SECURITY.md) and [INTEGRITY.md](./INTEGRITY.md).
 
