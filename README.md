@@ -1,4 +1,4 @@
-# Veritas — Open-Source Evidentiary Collection Engine
+# Veritas — Open-Source Evidentiary Data Collection Engine
 
 > ⚠️ **Production-ready for evidence collection.** This system provides
 > tamper-evident storage with PostgreSQL Row-Level Security (RLS), cryptographic
