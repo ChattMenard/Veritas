@@ -194,9 +194,9 @@ The response should be unified:
 
 2. **Map political donations:** Cross-reference corporate donor lists from CN, CPR, Irving, Big Five banks, and major developers with the politicians who voted for the policies that benefit them.
 
-3. **Quantify the aggregate extraction:** Calculate the total annual value flowing from Canadian public/commons to private corporate profit across housing (below-market stock destroyed), energy (refining margin exported), tax (unpaid revenue), and labour (wage suppression + externalized safety costs).
+3. **Quantify the aggregate extraction:** ✅ Completed — see `AGGREGATE_EXTRACTION.md` for the total annual value flowing from Canadian public/commons to private corporate profit across housing (below-market stock destroyed), energy (refining margin exported), tax (unpaid revenue), and labour (wage suppression + externalized safety costs).
 
-4. **Draft the unified policy package:** A single document connecting progressive corporate tax → public ownership of refineries, housing, and rail → restoration of worker protections → Crown banking expansion → universal public services.
+4. **Draft the unified policy package:** ✅ Completed — see `UNIFIED_POLICY_PACKAGE.md` for a single document connecting progressive corporate tax → public ownership of refineries, housing, and rail → restoration of worker protections → Crown banking expansion → universal public services.
 
 ---
 

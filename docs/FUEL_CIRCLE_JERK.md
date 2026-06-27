@@ -91,6 +91,86 @@ CN and CPR are Crown-chartered corporations (CPR via the original Dominion chart
 
 ---
 
+## Why This Happened
+
+The fuel circle jerk is not an accident of geography or economics. It is the deliberate result of **policy decisions made in Ottawa and Washington** over four decades, designed to guarantee US access to Canadian energy at Canada's expense.
+
+### 1. US Capital Built the Oil Sands
+
+The Athabasca oil sands were not developed with Canadian capital. **Sun Oil Inc.**, a US company, invested almost **$250 million** in the Great Canadian Oil Sands project in Fort McMurray in the 1960s — what Suncor itself calls "the biggest gamble in history." The merger that formed Suncor in 1979 was a US-Canadian corporate marriage, not a sovereign industrial project.
+
+From the beginning, the oil sands were configured for **US markets and US profit**, not Canadian energy self-sufficiency.
+
+### 2. The National Energy Program (1980) — The Last Time Canada Tried to Take Control
+
+In 1980, Pierre Trudeau's Liberal government introduced the **National Energy Program (NEP)** with three explicit goals:
+
+- **Increase Canadian ownership** of the petroleum industry
+- **Price energy fairly** for Canadian consumers
+- **Provide Canadian energy self-sufficiency**
+
+The NEP redirected western Canadian oil to eastern Canada, cutting exports to the US and keeping domestic prices below world market rates. It imposed new taxes and revenue-sharing to capture value for the federal treasury.
+
+**Industry and Alberta revolted.** Western alienation spiked. The NEP was blamed for bankruptcies, unemployment, and investment flight. In the 1984 election, **Brian Mulroney campaigned against the NEP and won a majority** with Western support.
+
+By June 1985, the NEP was dead. Oil prices were deregulated. Export controls were lifted. Canadian energy self-sufficiency was abandoned as federal policy.
+
+### 3. The Proportionality Clause (1989) — Constitutionalizing the Circle Jerk
+
+Mulroney did not merely reverse the NEP. He **ensured it could never happen again.**
+
+At the behest of Washington, Alberta, and Big Oil, Mulroney's government inserted the **energy proportionality clause** into the 1989 Canada-US Free Trade Agreement (FTA). NAFTA (1994) cemented it. The clause required Canada to maintain a fixed share of energy exports to the US — even during domestic shortages.
+
+**What proportionality meant in practice:**
+
+| Resource | Locked Export Share to US |
+|----------|--------------------------|
+| Oil | ~74% of total production |
+| Natural gas | ~52% of total production |
+| Electricity | ~11% of total production |
+
+Even if Canadians faced shortages — even if eastern Canadians were "freezing in the dark" — Canada was legally prohibited from redirecting those resources domestically without maintaining the same proportion exported to the US.
+
+The clause had a **chilling effect** on Canadian energy planning. It made energy sovereignty illegal. It made domestic refining uneconomical — why build Canadian refineries when you are contractually obligated to send three-quarters of your oil south?
+
+### 4. USMCA (2020) — The Clause Is Gone, But the Infrastructure Remains
+
+In 2020, the USMCA (CUSMA) **removed the proportionality clause**. Canada is no longer legally required to maintain fixed export shares to the United States.
+
+**This is the critical point:** The legal compulsion ended in 2020. The circle jerk continues today not because trade law forces it, but because:
+
+- **Pipelines are built south**, not east
+- **Refineries are in Texas**, not New Brunswick
+- **Corporate contracts and investment patterns** are locked into the continental model
+- **No Canadian government has proposed** rebuilding domestic refining capacity
+- **CN and CPR profit** from hauling resources south and processed goods north
+
+The proportionality clause built the cage. The cage is still there — even though the door is now open.
+
+### 5. The Corporate Capture Loop
+
+The same mechanism operates in energy as in housing and tax:
+
+```text
+US capital invests in extraction → Profits flow south
+    ↓
+Lobbying and political donations prevent domestic refining policy
+    ↓
+Trade agreements (FTA → NAFTA → USMCA) lock in continental energy market
+    ↓
+Canadian bitumen flows south; Canadian consumers buy back refined products
+    ↓
+Profit to US refiners, foreign oil majors, railway shareholders
+    ↓
+More lobbying, more political capture, more infrastructure built for export
+    ↓
+Loop repeats
+```
+
+**The circle jerk is not economically rational for Canada. It is politically rational for the corporations that profit from it.**
+
+---
+
 ## The Alternative
 
 **Crown-owned domestic refining** changes the entire equation:
