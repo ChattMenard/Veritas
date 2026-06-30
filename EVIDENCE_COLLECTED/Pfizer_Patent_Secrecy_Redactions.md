@@ -7,7 +7,7 @@
 
 ## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
 
-**Before understanding the secrecy and redactions documented below, you must understand the foundational context: Pfizer/BioNTech's platform was funded, patented, and ready before COVID-19 existed. The secrecy conceals the deployment of a pre-built platform.**
+**Before understanding the secrecy and redactions documented below, you must understand the foundational context: Pfizer/BioNTech's platform was funded, patented, and ready before COVID-19 existed. The secrecy conceals the deployment of a funded and patented platform.**
 
 ### The Platform Was Pre-Built
 - **Penn patents licensed to BioNTech (July 14, 2017)** — Before pandemic

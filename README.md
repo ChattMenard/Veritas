@@ -34,7 +34,7 @@ This repository contains:
 
 2. **Your Health Minister intervened** to delay drug price controls after 9 meetings with the pharmaceutical lobby in 8 months. The same lobby whose member companies (Pfizer, Moderna) received **pre-pandemic platform funding** from DARPA, Gates Foundation, and NIH (see Phase 1). [Source: Hansard, Carol Hughes (NDP), 2021-2022](./EVIDENCE_COLLECTED/Corporate_Pharma_WHO_Evidence.md)
 
-3. **Appointed a pharmaceutical IP lawyer** to chair the board that regulates pharmaceutical prices. The fox is guarding the henhouse and nobody fired him. This regulatory capture enabled the **secret vaccine contracts** with pre-built platform companies. [Source: ETHICS_DISCLOSURES_INVESTIGATION.md](./EVIDENCE_COLLECTED/ETHICS_DISCLOSURES_INVESTIGATION.md)
+3. **Appointed a pharmaceutical IP lawyer** to chair the board that regulates pharmaceutical prices. The fox is guarding the henhouse and nobody fired him. This regulatory capture enabled the **secret vaccine contracts** with funded and patented platform companies. [Source: ETHICS_DISCLOSURES_INVESTIGATION.md](./EVIDENCE_COLLECTED/ETHICS_DISCLOSURES_INVESTIGATION.md)
 
 4. **The Prime Minister holds $6.8 million in Brookfield stock** while Brookfield pitches a $50 billion fund seeking $10 billion from your government. [Source: SEC Schedule 13D](./EVIDENCE_COLLECTED/MAPLE_FUND_INVESTIGATION.md)
 
@@ -60,7 +60,7 @@ This repository contains:
 |----------|------------|-------------|
 | **[⚠️ PHASE 1: Pre-Pandemic Platform](./EVIDENCE_COLLECTED/Pre_Pandemic_Connections_The_Platform.md)** | **FOUNDATIONAL EVIDENCE** | **START HERE. The smoking gun: platform built before COVID.** |
 | **[⚠️ PHASE 1: Primary Sources](./EVIDENCE_COLLECTED/SUBSTANTIATION_The_Platform_Evidence_Pack.md)** | **VERIFICATION PACK** | **Every Phase 1 claim with direct primary source citations.** |
-| [MISSION_STATEMENT.md](./MISSION_STATEMENT.md) | **The Top 15 Fuckeries** | What they did with the pre-built platform |
+| [MISSION_STATEMENT.md](./MISSION_STATEMENT.md) | **The Top 15 Fuckeries** | What they did with the funded and patented platform |
 | [TOP_15_SUBSTANTIATION.md](./EVIDENCE_COLLECTED/TOP_15_SUBSTANTIATION.md) | Evidence for every claim | Primary source citations, exact quotes, and cross-references |
 | [REBUTTAL_AND_REFUTATION.md](./EVIDENCE_COLLECTED/REBUTTAL_AND_REFUTATION.md) | Counter-arguments destroyed | Every legitimate rebuttal steel-manned, then demolished |
 | [NO_ESCAPE.md](./EVIDENCE_COLLECTED/NO_ESCAPE.md) | All exits sealed | The 10 remaining retreat routes — closed with evidence |
@@ -144,7 +144,7 @@ python3 scripts/verify_integrity.py
 
 ## THE PRE-PANDEMIC PLATFORM
 
-The mRNA vaccine platform was built, funded, patented, and simulated **before COVID-19 existed**.
+The mRNA vaccine platform was funded and patented, and simulated **before COVID-19 existed**.
 
 **[Read the full pre-pandemic connections →](./EVIDENCE_COLLECTED/Pre_Pandemic_Connections_The_Platform.md)**
 
@@ -430,7 +430,7 @@ THE PLATFORM
 ├── Delivery: UBC/Acuitas LNP system already developed
 ├── Simulation: Event 201 (Oct 2019) + Crimson Contagion (Aug 2019)
 ├── Prediction: Fauci's "surprise outbreak" speech (Jan 2017)
-└── Activation: COVID-19 triggers pre-built platform
+└── Activation: COVID-19 triggers funded and patented platform
     └── Result: $100+ billion in vaccine sales; billions in royalties
 ```
 
@@ -438,7 +438,7 @@ THE PLATFORM
 
 ## 🚨 CONCLUSION: THE DIRTY CONNECTION
 
-**The COVID-19 pandemic was not a black swan event. It was the activation of a pre-built platform.**
+**The COVID-19 pandemic was not a black swan event. It was the activation of a funded and patented platform.**
 
 ### What Was Already In Place Before COVID-19:
 1. **Patents**: Penn's mRNA patents licensed to both Moderna and BioNTech (2017)

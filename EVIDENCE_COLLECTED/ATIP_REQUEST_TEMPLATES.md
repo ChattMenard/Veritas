@@ -8,7 +8,7 @@
 
 ## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
 
-**The vaccine contract ATIP requests below target companies (Pfizer, Moderna, BioNTech) whose mRNA platforms were funded, patented, and ready before COVID-19 existed. The secrecy around these contracts conceals the deployment of a pre-built platform.**
+**The vaccine contract ATIP requests below target companies (Pfizer, Moderna, BioNTech) whose mRNA platforms were funded, patented, and ready before COVID-19 existed. The secrecy around these contracts conceals the deployment of a funded and patented platform.**
 
 ### The Platform Was Pre-Built
 - **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic

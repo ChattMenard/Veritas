@@ -17,7 +17,7 @@
 - **Event 201 simulation (October 2019)** — Pandemic response practiced 2 months before COVID
 
 ### Why This Matters for This Document
-The revolving door between pharma industry and government documented below is not random — it enabled the deployment of pre-pandemic platform vaccines. Pamela Fralick's transition from Innovative Medicines Canada (pharma lobby) to government roles, and the systematic movement between industry and regulators, created the capture necessary to activate the pre-built platform when COVID arrived.
+The revolving door between pharma industry and government documented below is not random — it enabled the deployment of pre-pandemic platform vaccines. Pamela Fralick's transition from Innovative Medicines Canada (pharma lobby) to government roles, and the systematic movement between industry and regulators, created the capture necessary to activate the funded and patented platform when COVID arrived.
 
 **[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
 

@@ -10,7 +10,7 @@
 
 This dossier compiles evidence of systemic corruption across five investigation tracks:
 
-1. **Pre-Pandemic mRNA Platform** - Evidence that COVID-19 activated a pre-built platform
+1. **Pre-Pandemic mRNA Platform** - Evidence that COVID-19 activated a funded and patented platform
 2. **Government Money Trail** - Carney/Brookfield conflicts and real estate profiteering
 3. **Corporate Pharma/WHO Capture** - Regulatory capture and secret vaccine contracts
 4. **Revolving Door & Family Networks** - Systematic movement between industry and government
@@ -33,7 +33,7 @@ This dossier compiles evidence of systemic corruption across five investigation 
 - **Moderna 66-day vaccine timeline** - Impossible without pre-existing platform
 
 ### The Indictment
-The mRNA vaccine platform was built BEFORE COVID-19. The pandemic activated a pre-built platform, not the other way around. This explains the impossible 66-day vaccine timeline.
+The mRNA vaccine platform was funded and patented BEFORE COVID-19. The pandemic activated a funded and patented platform, not the other way around. This explains the impossible 66-day vaccine timeline.
 
 ---
 

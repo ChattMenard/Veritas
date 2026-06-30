@@ -16,7 +16,7 @@
 - **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
 
 ### Why This Matters for This Document
-The intensive lobbying by Innovative Medicines Canada documented below represents companies (Pfizer, Moderna, BioNTech) whose platforms were already built and funded before COVID existed. The lobbying pressure to delay drug price regulations and secure secret vaccine contracts was not random — it was the deployment of a pre-built platform through regulatory capture.
+The intensive lobbying by Innovative Medicines Canada documented below represents companies (Pfizer, Moderna, BioNTech) whose platforms were already built and funded before COVID existed. The lobbying pressure to delay drug price regulations and secure secret vaccine contracts was not random — it was the deployment of a funded and patented platform through regulatory capture.
 
 **[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
 

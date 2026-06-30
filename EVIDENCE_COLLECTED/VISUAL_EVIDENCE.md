@@ -22,7 +22,7 @@ timeline
       Dec 12 2019 : NIH/Moderna joint ownership agreement
       Dec 31 2019 : WHO learns about COVID-19
       Jan 2020 : Pandemic declared
-      66 days later : First vaccine ready (impossible without pre-built platform)
+      66 days later : First vaccine ready (impossible without funded and patented platform)
 ```
 
 ---

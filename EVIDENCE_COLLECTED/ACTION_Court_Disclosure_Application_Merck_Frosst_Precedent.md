@@ -168,7 +168,7 @@ Respondent
 
 ## 📌 CONNECTION TO PHASE 1
 
-**This court action seeks disclosure of vaccine contracts with companies (Pfizer, Moderna) whose platforms were pre-built before COVID-19. The secrecy around these contracts conceals the deployment of a pre-built platform.**
+**This court action seeks disclosure of vaccine contracts with companies (Pfizer, Moderna) whose platforms were funded and patented before COVID-19. The secrecy around these contracts conceals the deployment of a funded and patented platform.**
 
 **[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
 

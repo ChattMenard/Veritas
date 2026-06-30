@@ -275,7 +275,7 @@ THE PLATFORM
 ├── Delivery: UBC/Acuitas LNP system already developed
 ├── Simulation: Event 201 (Oct 2019) + Crimson Contagion (Aug 2019)
 ├── Prediction: Fauci's "surprise outbreak" speech (Jan 2017)
-└── Activation: COVID-19 triggers pre-built platform
+└── Activation: COVID-19 triggers funded and patented platform
     └── Result: $100+ billion in vaccine sales; billions in royalties
 ```
 
@@ -283,7 +283,7 @@ THE PLATFORM
 
 ## 🚨 CONCLUSION: THE DIRTY CONNECTION
 
-**The COVID-19 pandemic was not a black swan event. It was the activation of a pre-built platform.**
+**The COVID-19 pandemic was not a black swan event. It was the activation of a funded and patented platform.**
 
 ### What Was Already In Place Before COVID-19:
 1. **Patents**: Penn's mRNA patents licensed to both Moderna and BioNTech (2017)

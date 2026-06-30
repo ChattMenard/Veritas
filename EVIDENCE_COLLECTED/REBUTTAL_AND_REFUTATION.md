@@ -7,9 +7,9 @@
 
 ## ⚠️ PHASE 1 REBUTTALS: The Pre-Pandemic Platform Counter-Arguments Destroyed
 
-**The Phase 1 evidence — that the mRNA platform was built before COVID-19 — faces specific rebuttals. These are the strongest counter-arguments, followed by their destruction.**
+**The Phase 1 evidence — that the mRNA platform was funded and patented before COVID-19 — faces specific rebuttals. These are the strongest counter-arguments, followed by their destruction.**
 
-### Phase 1 Rebuttal 1: "The platform was built for MERS, not COVID. This is normal pandemic preparedness."
+### Phase 1 Rebuttal 1: "The platform was funded for MERS, not COVID. This is normal pandemic preparedness."
 
 **The counter-argument:** NIAID and Moderna had been working on mRNA vaccines for MERS coronavirus since 2017. The December 2019 agreement covered generic coronavirus vaccines, not SARS-CoV-2 specifically. This is standard pandemic preparedness — having a platform ready for any coronavirus that might emerge.
 

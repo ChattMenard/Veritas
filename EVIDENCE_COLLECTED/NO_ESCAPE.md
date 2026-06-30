@@ -13,7 +13,7 @@
 
 ### The Seal
 
-**The platform was built before the emergency.**
+**The platform was funded and patented before the emergency.**
 
 - **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
 - **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
