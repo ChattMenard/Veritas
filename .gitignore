@@ -15,3 +15,8 @@ frontend/dist/
 .vscode/
 venv/
 backend/venv/
+.vercel
+.env*
+
+# Local Netlify folder
+.netlify

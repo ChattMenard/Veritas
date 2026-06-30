@@ -1,0 +1,10 @@
+EVIDENCE_COLLECTED/
+ATIP_REQUESTS/
+backend/
+scripts/
+.venv/
+__pycache__/
+.pytest_cache/
+.git/
+.vercel/
+.netlify/
