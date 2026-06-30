@@ -85,31 +85,30 @@
 
 ---
 
-**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 ## 🎯 LEGAL STRATEGIES
 
 ### Strategy 1: Ethics Complaint
 - [ACTION_Draft_Ethics_Complaint_Duclos.md](./ACTION_Draft_Ethics_Complaint_Duclos.md) — Ready to file
 
 **Evidence Required:** Ethics disclosures, lobbying registry
+**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 
 ### Strategy 2: ATIP Requests
 - [ATIP_REQUEST_TEMPLATES.md](./ATIP_REQUEST_TEMPLATES.md) — 6 templates ready
-**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 
 **Evidence Required:** None (templates ready for filing)
 
 ### Strategy 3: Competition Act Complaint
-- Note:** Connected to Phase 1 (pre-pandemic platform evidence)
-
-**[ACTION_Competition_Act_Complaint_Framework.md](./ACTION_Competition_Act_Complaint_Framework.md) — Ready to draft
+- [ACTION_Competition_Act_Complaint_Framework.md](./ACTION_Competition_Act_Complaint_Framework.md) — Ready to draft
 
 **Evidence Required:** Lobbying registry, policy documents
+**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 
 ### Strategy 4: Class Action Intervention
 - [ACTION_Sakamoto_Class_Action_Intervention.md](./ACTION_Sakamoto_Class_Action_Intervention.md) — Ready to contact counsel
 
 **Evidence Required:** FDA redactions, patent secrecy, VISP data
+**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 
 ### Strategy 5: Court Disclosure Action
 - [ACTION_Court_Disclosure_Application_Merck_Frosst_Precedent.md](./ACTION_Court_Disclosure_Application_Merck_Frosst_Precedent.md) — Legal template
@@ -120,6 +119,7 @@
 - [ACTION_Private_Prosecution_Framework.md](./ACTION_Private_Prosecution_Framework.md) — Hold for now
 
 **Evidence Required:** Smoking gun evidence (quid pro quo)
+**Note:** Connected to Phase 1 (pre-pandemic platform evidence)
 
 **Master Summary:** [ACTION_Master_Summary.md](./ACTION_Master_Summary.md)
 
