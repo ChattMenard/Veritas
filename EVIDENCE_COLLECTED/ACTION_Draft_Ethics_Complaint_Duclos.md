@@ -22,6 +22,10 @@ The revolving door between pharma companies and government regulators (documente
 
 **[📊 RELATED: Ethics Disclosures Investigation →](./ETHICS_DISCLOSURES_INVESTIGATION.md)**
 
+**[⚖️ RELATED: Competition Act Complaint →](./ACTION_Competition_Act_Complaint_Framework.md)**
+
+**[⚖️ RELATED: Private Prosecution Framework →](./ACTION_Private_Prosecution_Framework.md)**
+
 ---
 
 **To:** Office of the Conflict of Interest and Ethics Commissioner

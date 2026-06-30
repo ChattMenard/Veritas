@@ -20,6 +20,10 @@ The coordinated lobbying by Innovative Medicines Canada to suppress drug price c
 
 **[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
 
+**[⚖️ RELATED: Ethics Complaint Against Duclos →](./ACTION_Draft_Ethics_Complaint_Duclos.md)**
+
+**[⚖️ RELATED: Private Prosecution Framework →](./ACTION_Private_Prosecution_Framework.md)**
+
 ---
 
 ## EXECUTIVE SUMMARY

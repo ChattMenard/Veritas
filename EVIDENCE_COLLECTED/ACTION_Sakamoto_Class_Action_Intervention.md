@@ -21,6 +21,8 @@ The evidence that the mRNA platform was pre-built and funded before COVID existe
 
 **[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
 
+**[⚖️ RELATED: Court Disclosure Application (Merck Frosst Precedent) →](./ACTION_Court_Disclosure_Application_Merck_Frosst_Precedent.md)**
+
 ---
 
 ## CASE OVERVIEW

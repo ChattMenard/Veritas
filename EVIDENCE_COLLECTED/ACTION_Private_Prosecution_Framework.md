@@ -22,6 +22,8 @@ The revolving door documented in ETHICS_DISCLOSURES_INVESTIGATION.md facilitated
 
 **[📊 RELATED: Ethics Disclosures Investigation →](./ETHICS_DISCLOSURES_INVESTIGATION.md)**
 
+**[⚖️ RELATED: Ethics Complaint Against Duclos →](./ACTION_Draft_Ethics_Complaint_Duclos.md)**
+
 ---
 
 ## EXECUTIVE SUMMARY
