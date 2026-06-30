@@ -5,6 +5,27 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**Before understanding the lobbying intensity documented below, you must understand the foundational context: The pharmaceutical lobby (Innovative Medicines Canada) represents companies whose mRNA platforms were funded, patented, and ready before COVID-19 existed.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+
+### Why This Matters for This Document
+The intensive lobbying by Innovative Medicines Canada documented below represents companies (Pfizer, Moderna, BioNTech) whose platforms were already built and funded before COVID existed. The lobbying pressure to delay drug price regulations and secure secret vaccine contracts was not random — it was the deployment of a pre-built platform through regulatory capture.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+**[📊 RELATED: Ethics Disclosures Investigation →](./ETHICS_DISCLOSURES_INVESTIGATION.md)**
+
+---
+
 ## 🎯 INNOVATIVE MEDICINES CANADA (Pharma Lobby)
 
 ### Lobbying Intensity (2022-2023)

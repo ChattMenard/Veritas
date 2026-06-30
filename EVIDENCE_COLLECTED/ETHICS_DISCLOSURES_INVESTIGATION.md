@@ -5,6 +5,28 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**Before understanding the ethics violations and revolving door documented below, you must understand the foundational context: The regulatory capture enabled the deployment of a pre-built mRNA platform.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+- **Event 201 simulation (October 2019)** — Pandemic response practiced 2 months before COVID
+
+### Why This Matters for This Document
+The revolving door between pharma industry and government documented below is not random — it enabled the deployment of pre-pandemic platform vaccines. Pamela Fralick's transition from Innovative Medicines Canada (pharma lobby) to government roles, and the systematic movement between industry and regulators, created the capture necessary to activate the pre-built platform when COVID arrived.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+**[📊 RELATED: Lobbying Meetings Analysis →](./LOBBYING_MEETINGS_ANALYSIS.md)**
+
+---
+
 ## 🎯 JEAN-YVES DUCLOS
 
 ### Current Role

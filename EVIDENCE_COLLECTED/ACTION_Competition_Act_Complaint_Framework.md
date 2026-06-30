@@ -3,6 +3,25 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**The Competition Act complaint below targets Innovative Medicines Canada, which represents pharmaceutical companies whose mRNA platforms were funded, patented, and ready before COVID-19 existed.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+
+### Why This Matters for This Document
+The coordinated lobbying by Innovative Medicines Canada to suppress drug price competition was not random — it protected the deployment of a pre-built mRNA platform. The anti-competitive conduct alleged in this complaint enabled the rapid procurement and deployment of vaccines whose platforms were already built and funded before COVID existed.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+---
+
 ## EXECUTIVE SUMMARY
 
 This document provides a framework for filing a complaint with the Competition Bureau of Canada against Innovative Medicines Canada (IMC) and its member companies, alleging anti-competitive conduct in violation of the *Competition Act*, R.S.C., 1985, c. C-34.

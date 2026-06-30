@@ -1,0 +1,150 @@
+{
+  "incomplete_tasks": {
+    "ETHICS_DISCLOSURES_INVESTIGATION.md": {
+      "priority_1_atip_requests": [
+        "ATIP: Duclos full ethics disclosure (asset holdings, investments)",
+        "ATIP: Fralick government pension/benefits details",
+        "ATIP: Hamelin NSERC ethics disclosure and recusal records",
+        "ATIP: Digby PMPRB internal communications and client conflict review"
+      ],
+      "priority_2_lobbying_registry_analysis": [
+        "Map Innovative Medicines Canada lobbying meetings to policy decisions",
+        "Cross-reference Digby, Hamelin, Fralick meeting participation",
+        "Timeline lobbying meetings vs regulatory changes"
+      ],
+      "priority_3_parliamentary_committee_records": [
+        "Review committee appearances for conflicts of interest",
+        "Analyze questioning patterns related to pharma regulations",
+        "Document ministerial interventions in PMPRB decisions"
+      ]
+    },
+    "POLITICAL_DONATIONS_ANALYSIS.md": {
+      "priority_1_modern_donation_analysis_2015_2025": [
+        "Filter donations for 2015-2025 period",
+        "Search for individual donations from pharma executives",
+        "Search for donations from: Brookfield executives, Irving family, Intelcom executives",
+        "Correlate donation dates to policy announcements (drug pricing, pandemic response)"
+      ],
+      "priority_2_executive_level_donations": [
+        "Search for donations from: Carney family, Freeland family, Duclos, Joly, LeBlanc",
+        "Search for donations from: Pharma CEOs, Brookfield directors, Irving family members",
+        "Cross-reference to ethics disclosures"
+      ],
+      "priority_3_riding_association_analysis": [
+        "Identify ridings with heavy pharma/industry donations",
+        "Cross-reference to MPs who voted on relevant legislation",
+        "Map donation patterns to voting records"
+      ]
+    },
+    "FAMILY_NETWORK_INVESTIGATION.md": {
+      "intelcom_investigation": [
+        "Search CanadaBuys for Intelcom Courrier Canada Inc. contracts",
+        "Identify Mélanie Joly's brother (name, role, ownership stake)",
+        "Cross-reference contract dates with Joly's recusal disclosures",
+        "Search for Intelcom lobbying registry entries"
+      ],
+      "irving_investigation": [
+        "Compile all Irving Shipbuilding contract values and dates",
+        "Identify Dominic LeBlanc's recusal timeline for Irving-related decisions",
+        "Search for Irving family political donations",
+        "Map Irving contract awards to LeBlanc's ministerial roles"
+      ]
+    },
+    "MASTER_INDICTMENT.md": {
+      "atip_requests_6_filed": [
+        "Pfizer vaccine contract - Full terms and pricing",
+        "Moderna vaccine contract - Full terms and pricing",
+        "VaccineConnect Deloitte procurement - $60M contract details",
+        "PMPRB internal communications - Digby appointment conflicts",
+        "CIB investment decisions - Brookfield projects",
+        "Canada Growth Fund allocations - Brookfield investments"
+      ],
+      "parliamentary_pressure": [
+        "Continue asking written questions about Brookfield contracts",
+        "Request committee studies on revolving door patterns",
+        "Demand ethics disclosure reform"
+      ],
+      "public_awareness": [
+        "Publish this dossier widely",
+        "Share with media outlets",
+        "Distribute to opposition parties",
+        "Post on social media"
+      ]
+    },
+    "ELECTIONS_CANADA_MINING_REPORT.md": {
+      "recommended_next_steps": [
+        "Search modern donation data (2015-2025) — This dataset ends in 2006",
+        "Search Brookfield subsidiary names — Not 'Brookfield Asset Management' but related entities",
+        "Cross-reference executive names — Search for Carney, Freeland, Joly family members",
+        "Search for numbered companies — Corporate donations may be through numbered companies",
+        "Map donation timing to policy decisions — When were donations made relative to contract awards?"
+      ]
+    },
+    "LOBBYING_MEETINGS_ANALYSIS.md": {
+      "priority_1_brookfield_lobbying_data": [
+        "Advanced registry search for all Brookfield entities",
+        "Extract meeting dates, attendees, subject matter",
+        "Correlate to Maple Fund proposal timeline",
+        "Correlate to CIB/Canada Growth Fund decisions"
+      ],
+      "priority_2_policy_timeline_mapping": [
+        "Map all IMC lobbying meetings to PMPRB regulatory changes",
+        "Map Brookfield meetings to infrastructure fund decisions",
+        "Cross-reference to parliamentary questions (Q-735, Q-736, Q-603)",
+        "Identify quid-pro-quo patterns"
+      ],
+      "priority_3_ministerial_staff_analysis": [
+        "Track ministerial staff participation in lobbying meetings",
+        "Identify staff who moved between government and industry",
+        "Cross-reference to revolving door patterns"
+      ]
+    },
+    "MAPLE_FUND_INVESTIGATION.md": {
+      "priority_1_document_budget_2025_changes": [
+        "Review Budget 2025 provisions for blended finance",
+        "Identify any Maple Fund-inspired mechanisms",
+        "Analyze CIB mandate expansion details"
+      ],
+      "priority_2_pension_fund_responses": [
+        "Research public statements from CPPIB, CDPQ, OTPP on Maple Fund",
+        "Identify governance concerns raised by pensions",
+        "Track any subsequent blended finance proposals"
+      ],
+      "priority_3_atip_request": [
+        "Request government documents related to Maple Fund discussions",
+        "Request meeting minutes between Brookfield and federal officials",
+        "Request internal analysis of blended finance proposals"
+      ]
+    },
+    "EVIDENCE_GAP_AUDIT.md": {
+      "track_2_government_money_trace_carney_brookfield": {
+        "contract_timing_analysis_not_mapped": [
+          "Brookfield contract amendments vs Carney appointment timeline (March 2025)",
+          "Contract awards vs policy announcements (CIB, Canada Growth Fund)",
+          "Competitive bidding vs sole-source awards analysis",
+          "Amendment patterns (40% average increase) - which policies triggered?"
+        ],
+        "family_network_investigation_not_started": [
+          "Carney family business interests",
+          "Brookfield-related entities in ethics screens (100+ entities listed but not analyzed)",
+          "Political donations from Brookfield executives/directors",
+          "Corporate registry searches for family holdings"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total_files_with_tasks": 8,
+    "total_task_categories": 22,
+    "evidence_gathering_methods": [
+      "ATIP requests",
+      "Lobbying registry analysis",
+      "Parliamentary records review",
+      "Corporate registry searches",
+      "Political donation database searches",
+      "Budget and policy document analysis",
+      "Ethics disclosure reviews",
+      "CanadaBuys contract searches"
+    ]
+  }
+}

@@ -5,6 +5,16 @@
 
 ---
 
+## 📌 NOTE: Separate Corruption Track
+
+**This document investigates family and friendship connections between government officials and corporate beneficiaries of federal contracts. This is a separate corruption track from Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech). This document tracks the family/friendship corruption track (Joly/Intelcom, LeBlanc/Irving). Both tracks operate in parallel as part of the broader investigation.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+---
+
 ## 🎯 INTELCOM COURRIER CANADA INC. (Joly Family Connection)
 
 ### Corporate Registry Findings

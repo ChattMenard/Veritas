@@ -6,6 +6,26 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**Before understanding the 10 worst actions documented below, you must understand the foundational context: The companies receiving vaccine contracts had platforms that were funded, patented, and ready before COVID-19 existed.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+- **Event 201 simulation (October 2019)** — Pandemic response practiced 2 months before COVID
+
+### Why This Matters for This Document
+The secret vaccine contracts (Action #1) were signed with companies whose platforms were already built and funded before COVID existed. The surveillance state (Action #8) was deployed to enforce uptake of pre-pandemic platform vaccines.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+---
+
 ## 1. SECRET VACCINE CONTRACTS WITH PHARMA
 
 **What happened:**

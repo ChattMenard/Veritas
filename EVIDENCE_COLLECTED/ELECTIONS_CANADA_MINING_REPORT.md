@@ -6,6 +6,18 @@
 
 ---
 
+## 📌 NOTE: Separate Corruption Track
+
+**This document mines the Elections Canada database for donation patterns from pharmaceutical companies, Brookfield entities, and Irving companies. This is a separate corruption track from Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech). This document tracks the political financing track (corporate donations). Both tracks operate in parallel as part of the broader investigation.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📊 RELATED: Political Donations Analysis →](./POLITICAL_DONATIONS_ANALYSIS.md)**
+
+---
+
 ## EXECUTIVE SUMMARY
 
 The Elections Canada open data contribution database contains **~47,500+ rows** of political donations spanning the 2004-2006 election cycles. This report documents findings from mining the dataset for connections to:

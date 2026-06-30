@@ -5,6 +5,16 @@
 
 ---
 
+## 📌 EVIDENCE BASE: Phase 1 Foundation
+
+**The legal strategies below are based on evidence collected across multiple corruption tracks, including Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech) which underpins the vaccine contract ATIP requests and class action interventions. Other tracks document financial conflicts (Carney/Brookfield) and family networks (Joly/Intelcom, LeBlanc/Irving). All evidence tracks support the legal strategies below.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+---
+
 ## THE FIVE STRATEGIES
 
 | # | Strategy | Document | Status | Difficulty | Impact |

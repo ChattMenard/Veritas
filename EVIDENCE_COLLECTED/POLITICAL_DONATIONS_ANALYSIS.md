@@ -6,6 +6,18 @@
 
 ---
 
+## 📌 NOTE: Separate Corruption Track
+
+**This document investigates political donation patterns from pharmaceutical companies and corporate executives. This is a separate corruption track from Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech). This document tracks the political financing track (corporate donations to political parties). Both tracks operate in parallel as part of the broader investigation.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📊 RELATED: Lobbying Meetings Analysis →](./LOBBYING_MEETINGS_ANALYSIS.md)**
+
+---
+
 ## 🎯 PRELIMINARY FINDINGS
 
 ### Pharmaceutical Corporate Donations (2004-2006 Sample)

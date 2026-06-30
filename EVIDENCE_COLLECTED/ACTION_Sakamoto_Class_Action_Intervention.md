@@ -4,6 +4,25 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**The Sakamoto class action alleges negligence and misrepresentation regarding COVID vaccines. This intervention provides evidence that the vaccine platform was pre-built before COVID existed, supporting claims of misrepresentation.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+
+### Why This Matters for This Document
+The evidence that the mRNA platform was pre-built and funded before COVID existed supports the plaintiffs' claims of negligent misrepresentation. If the platform was not "novel" as claimed, but rather a pre-positioned technology, this undermines the basis for emergency authorization and supports allegations of misfeasance in public office.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+---
+
 ## CASE OVERVIEW
 
 **Case:** Sakamoto v. Alberta (and the Attorney General of Canada)

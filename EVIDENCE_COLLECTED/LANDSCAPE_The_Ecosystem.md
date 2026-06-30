@@ -3,6 +3,12 @@
 
 ---
 
+**[📋 MASTER INDEX: Central Navigation for All Investigation Tracks →](./MASTER_INDEX.md)**
+
+**[📖 PHASE 1 EXECUTIVE SUMMARY: Pre-Pandemic Platform Evidence →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+---
+
 ## HOW TO READ THIS DOCUMENT
 
 This is not a collection of isolated claims. It is a **connected system**. Each section builds on the previous one. The goal is to show you — and anyone you share this with — how the pieces fit together into a coherent picture.

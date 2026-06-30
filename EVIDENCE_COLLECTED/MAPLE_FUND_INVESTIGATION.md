@@ -5,6 +5,20 @@
 
 ---
 
+## 📌 NOTE: Separate Corruption Track
+
+**This document investigates Brookfield's $50B Maple Fund proposal and Mark Carney's financial conflicts. This is a separate corruption track from Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech). This document tracks the financial corruption track (Carney/Brookfield/Maple Fund). Both tracks operate in parallel as part of the broader investigation.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📊 RELATED: Brookfield Parliamentary Scrutiny →](./BROOKFIELD_PARLIAMENTARY_SCRUTINY.md)**
+
+**[📊 RELATED: Government Money Trail Evidence →](./Government_Money_Trail_Evidence.md)**
+
+---
+
 ## 🎯 MAPLE FUND PROPOSAL (August 2024)
 
 ### Fund Structure

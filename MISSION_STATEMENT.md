@@ -12,6 +12,30 @@ This is not conspiracy theory. This is documented fact.
 
 ---
 
+## ⚠️ PHASE 1: THE FOUNDATIONAL CONTEXT — READ THIS FIRST
+
+**Before understanding what they did, you must understand how it was possible.**
+
+The COVID-19 pandemic did not create the mRNA vaccine industry. The mRNA vaccine industry was already built, funded, patented, and simulated before COVID-19 existed. The "pandemic" was the business opportunity that activated a pre-existing platform.
+
+### The Smoking Gun (December 12, 2019)
+
+NIH and Moderna had a joint ownership agreement for mRNA coronavirus vaccines, signed **December 12, 2019** — **19 days before the WHO became aware of the Wuhan pneumonia cluster**. The patents were licensed to Moderna and BioNTech in 2017. DARPA funded the platform in 2013. The Gates Foundation committed $100 million in 2016. Event 201 simulated the pandemic response in October 2019. Fauci predicted a "surprise outbreak" in January 2017.
+
+**The pandemic did not create the platform. The platform was already built.**
+
+### Why This Matters for the 15 Fuckeries Below
+
+Every vaccine contract, every pharma intervention, every regulatory capture documented in this Mission Statement was made possible because the platform was pre-built. The secret $5-9 billion vaccine contracts (Fuckery #1) were signed with companies whose platforms were funded, patented, and ready before COVID existed. The minister's intervention to delay drug price controls (Fuckery #2) protected companies that had already received pre-pandemic platform funding. The surveillance state (Fuckery #8) was deployed to enforce uptake of pre-pandemic platform vaccines.
+
+**Phase 1 is the foundation. The 15 fuckeries are the execution.**
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./EVIDENCE_COLLECTED/Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW ALL PRIMARY SOURCES →](./EVIDENCE_COLLECTED/SUBSTANTIATION_The_Platform_Evidence_Pack.md)**
+
+---
+
 ## THE TOP 15 FUCKERIES
 
 These are the 15 most egregious, documented, and provable actions the federal government took against Canadians. Every single one has evidence. Every single one has a victim. Every single one has a beneficiary who is not you.

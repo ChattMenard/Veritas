@@ -5,6 +5,20 @@
 
 ---
 
+## 📌 NOTE: Separate Corruption Track
+
+**This document investigates financial conflicts of interest involving Brookfield Asset Management and Mark Carney. This is a separate corruption track from Phase 1 (the pre-pandemic mRNA platform).**
+
+**Phase 1** documents the pre-pandemic mRNA platform (Pfizer, Moderna, BioNTech). This document tracks the financial corruption track (Carney/Brookfield). Both tracks operate in parallel as part of the broader investigation.
+
+**[📖 READ PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📊 RELATED: Maple Fund Investigation →](./MAPLE_FUND_INVESTIGATION.md)**
+
+**[📊 RELATED: Lobbying Meetings Analysis →](./LOBBYING_MEETINGS_ANALYSIS.md)**
+
+---
+
 ## 🎯 PARLIAMENTARY WRITTEN QUESTIONS
 
 ### Q-736 (45-1) - Canada Growth Fund Involvement

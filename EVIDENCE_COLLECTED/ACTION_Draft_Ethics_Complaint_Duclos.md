@@ -3,6 +3,27 @@
 
 ---
 
+## ⚠️ PHASE 1 CONNECTION: The Pre-Pandemic Platform Context
+
+**The ethics complaint below targets Jean-Yves Duclos for conflicts of interest during his tenure as Health Minister. The revolving door enabled the deployment of a pre-built mRNA platform.**
+
+### The Platform Was Pre-Built
+- **Penn patents licensed to Moderna/BioNTech (2017)** — Before pandemic
+- **NIH/Moderna joint ownership agreement (December 12, 2019)** — 19 days before WHO awareness
+- **DARPA funding to Moderna (2013)** — $25M for "engineered biological threats"
+- **Gates Foundation framework (2016)** — Up to $100M for mRNA infectious diseases
+
+### Why This Matters for This Document
+The revolving door between pharma companies and government regulators (documented in ETHICS_DISCLOSURES_INVESTIGATION.md) facilitated the deployment of a pre-built mRNA platform. As Health Minister, Duclos oversaw vaccine procurement for companies whose platforms were funded and patented before COVID existed, creating potential conflicts that this ethics complaint seeks to address.
+
+**[📖 READ THE FULL PHASE 1 EVIDENCE →](./Pre_Pandemic_Connections_The_Platform.md)**
+
+**[📋 VIEW PHASE 1 EXECUTIVE SUMMARY →](./PHASE_1_EXECUTIVE_SUMMARY.md)**
+
+**[📊 RELATED: Ethics Disclosures Investigation →](./ETHICS_DISCLOSURES_INVESTIGATION.md)**
+
+---
+
 **To:** Office of the Conflict of Interest and Ethics Commissioner
 **Attention:** Commissioner
 **Address:** Office of the Conflict of Interest and Ethics Commissioner, Parliament of Canada

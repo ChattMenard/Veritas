@@ -1,0 +1,273 @@
+{
+  "total_tasks": 22,
+  "by_priority": {
+    "Investigation Needed": [
+      {
+        "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+        "priority_section": "Investigation Needed",
+        "task": "Advanced registry search for Brookfield entities",
+        "status": "pending"
+      },
+      {
+        "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+        "priority_section": "Investigation Needed",
+        "task": "Cross-reference to CIB, Canada Growth Fund meetings",
+        "status": "pending"
+      },
+      {
+        "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+        "priority_section": "Investigation Needed",
+        "task": "Timeline meetings to Maple Fund proposal (August 2024)",
+        "status": "pending"
+      },
+      {
+        "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+        "priority_section": "Investigation Needed",
+        "task": "Timeline meetings to Carney appointment (March 2025)",
+        "status": "pending"
+      },
+      {
+        "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+        "priority_section": "Investigation Needed",
+        "task": "--",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "ATIP request for full ethics disclosure (asset holdings, investments)",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Cross-reference to pharma stock holdings during Health Minister tenure",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Review recusal records for pharma-related decisions",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "--",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Ethics disclosure for government pension/benefits from Health Canada",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Current compensation from board positions",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Client list from private practice (if any)",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "--",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Ethics disclosure for NSERC tenure (asset holdings, investments)",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Current compensation from Ontario Genomics",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Recusal records for NSERC decisions involving pharma companies",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Government funding received by Ontario Genomics during Hamelin tenure",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "--",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Ethics disclosure for client list from private practice",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Recusal records for PMPRB decisions involving former clients",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "Internal PMPRB communications about Digby appointment (ATIP needed)",
+        "status": "pending"
+      },
+      {
+        "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+        "priority_section": "Investigation Needed",
+        "task": "--",
+        "status": "pending"
+      }
+    ]
+  },
+  "all_tasks": [
+    {
+      "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+      "priority_section": "Investigation Needed",
+      "task": "Advanced registry search for Brookfield entities",
+      "status": "pending"
+    },
+    {
+      "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+      "priority_section": "Investigation Needed",
+      "task": "Cross-reference to CIB, Canada Growth Fund meetings",
+      "status": "pending"
+    },
+    {
+      "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+      "priority_section": "Investigation Needed",
+      "task": "Timeline meetings to Maple Fund proposal (August 2024)",
+      "status": "pending"
+    },
+    {
+      "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+      "priority_section": "Investigation Needed",
+      "task": "Timeline meetings to Carney appointment (March 2025)",
+      "status": "pending"
+    },
+    {
+      "source_file": "LOBBYING_MEETINGS_ANALYSIS.md",
+      "priority_section": "Investigation Needed",
+      "task": "--",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "ATIP request for full ethics disclosure (asset holdings, investments)",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Cross-reference to pharma stock holdings during Health Minister tenure",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Review recusal records for pharma-related decisions",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "--",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Ethics disclosure for government pension/benefits from Health Canada",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Current compensation from board positions",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Client list from private practice (if any)",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "--",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Ethics disclosure for NSERC tenure (asset holdings, investments)",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Current compensation from Ontario Genomics",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Recusal records for NSERC decisions involving pharma companies",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Government funding received by Ontario Genomics during Hamelin tenure",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "--",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Ethics disclosure for client list from private practice",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Recusal records for PMPRB decisions involving former clients",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "Internal PMPRB communications about Digby appointment (ATIP needed)",
+      "status": "pending"
+    },
+    {
+      "source_file": "ETHICS_DISCLOSURES_INVESTIGATION.md",
+      "priority_section": "Investigation Needed",
+      "task": "--",
+      "status": "pending"
+    }
+  ]
+}
